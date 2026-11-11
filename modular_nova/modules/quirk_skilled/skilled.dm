@@ -27,7 +27,7 @@ GLOBAL_LIST_INIT(skill_choices, init_skill_choices())
 	associated_typepath = /datum/quirk/skilled
 	customization_options = list(/datum/preference/choiced/skilled)
 
-/datum/quirk/skilled/add(client/client_source)
+/datum/quirk/skilled/add_unique(client/client_source)
 	var/datum/mind/holder_mind = quirk_holder.mind
 
 	var/our_skill = client_source?.prefs?.read_preference(/datum/preference/choiced/skilled)
