@@ -86,9 +86,6 @@
 /datum/quirk/custom_tongue/add(client/client_source)
 	. = ..()
 	RegisterSignal(quirk_holder, COMSIG_SET_SAY_MODIFIERS, PROC_REF(tongue_setup))
-
-/datum/quirk/custom_tongue/post_add()
-	. = ..()
 	tongue_setup()
 
 /datum/quirk/custom_tongue/remove(client/client_source)
