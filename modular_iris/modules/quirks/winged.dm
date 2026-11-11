@@ -20,3 +20,8 @@
 	else
 		var/obj/item/organ/wings/gizzard/gizzard_wings = new()
 		gizzard_wings.Insert(quirk_holder)
+		gizzard_wings.flight_level = WINGS_AIRWORTHY
+		qdel(gizzard_wings.GetComponent(/datum/component/jetpack))
+		gizzard_wings.setup_jetpack()
+		gizzard_wings.update_flight(quirk_holder)
+		gizzard_wings.use_stamina = TRUE
