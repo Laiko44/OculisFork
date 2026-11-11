@@ -180,10 +180,10 @@
 	return ..(new_holder, quirk_transfer = quirk_transfer, client_source = client_source, unique = unique, announce = announce)
 
 /*
- * Called when the quirk is first added to a mob.
+ * Called when the quirk is added to a mob.
  * Checks if the holder already has cat fangs and removes the quirk if so.
  */
-/datum/quirk/bitey/add_unique(client/client_source)
+/datum/quirk/bitey/add(client/client_source)
 	var/mob/living/carbon/human/human_holder = quirk_holder
 	if(!ishuman(human_holder))
 		return
