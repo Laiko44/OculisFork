@@ -8,7 +8,7 @@
 	medical_record_text = "Patient excels at aerial movement."
 	mail_goodies = list(/obj/item/storage/fancy/nugget_box)
 
-/datum/quirk/winged/add_unique(client/client_source)
+/datum/quirk/winged/add(client/client_source)
 	. = ..()
 	var/obj/item/organ/wings/existing_wings = quirk_holder.get_organ_slot(ORGAN_SLOT_EXTERNAL_WINGS)
 	if(existing_wings)
