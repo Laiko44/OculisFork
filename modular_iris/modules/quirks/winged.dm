@@ -10,11 +10,11 @@
 
 /datum/quirk/winged/add(client/client_source)
 	. = ..()
-	var/obj/item/organ/wings/existing_wings = quirk_holder.get_organ_slot(ORGAN_SLOT_EXTERNAL_WINGS)
-	if(!existing_wings)
+
+	if(!quirk_holder.get_organ_slot(ORGAN_SLOT_EXTERNAL_WINGS))
 		var/obj/item/organ/wings/gizzard/gizzard_wings = new()
 		gizzard_wings.Insert(quirk_holder)
-		var/obj/item/organ/wings/existing_wings = quirk_holder.get_organ_slot(ORGAN_SLOT_EXTERNAL_WINGS)
+	var/obj/item/organ/wings/existing_wings = quirk_holder.get_organ_slot(ORGAN_SLOT_EXTERNAL_WINGS)
 
 	existing_wings.flight_level = WINGS_AIRWORTHY
 	qdel(existing_wings.GetComponent(/datum/component/jetpack))
