@@ -212,6 +212,7 @@
 	var/mob/living/carbon/human/human_holder = quirk_holder
 	if (deploy_locked && HAS_TRAIT_FROM(human_holder, TRAIT_NODISMEMBER, QUIRK_TRAIT))
 		REMOVE_TRAIT(human_holder, TRAIT_NODISMEMBER, QUIRK_TRAIT)
+	modsuit.doStrip(quirk_holder)
 	QDEL_NULL(modsuit)
 
 /datum/quirk/equipping/entombed/proc/install_racial_features()
