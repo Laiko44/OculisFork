@@ -25,14 +25,6 @@
 	var/datum/action/innate/toggle_floating_items/toggle = new
 	toggle.Grant(quirk_holder)
 
-/datum/quirk/floating_items/remove(client/client_source)
-	if(QDELETED(quirk_holder))
-		return ..()
-	var/datum/action/innate/toggle_floating_items/toggle = locate(/datum/action/innate/toggle_floating_items/toggle) in quirk_holder.actions
-	if(toggle)
-		QDEL_NULL(toggle)
-
-
 /datum/preference/color/floating_items/create_default_value()
 	return "#FF99FF"
 
