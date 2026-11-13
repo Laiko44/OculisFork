@@ -66,15 +66,11 @@
 	playsound(human_holder, 'sound/effects/alert.ogg', 25, TRUE, SILENCED_SOUND_EXTRARANGE) // OH GOD THE STRESS NOISE
 	life_support_failed = TRUE
 
-/datum/quirk/equipping/entombed/add(client/client_source)
+/datum/quirk/equipping/entombed/add_unique(client/client_source)
 	. = ..()
 	var/mob/living/carbon/human/human_holder = quirk_holder
 	if (istype(human_holder.back, /obj/item/mod/control/pre_equipped/entombed))
 		modsuit = human_holder.back // link this up to the quirk for easy access
-	else
-		human_holder.back.doStrip(human_holder)
-		human_holder.back = new /obj/item/mod/control/pre_equipped/entombed()
-		modsuit = human_holder.back
 
 	if (isnull(modsuit))
 		stack_trace("Entombed quirk couldn't create a fused MODsuit on [quirk_holder] and was force-removed.")
