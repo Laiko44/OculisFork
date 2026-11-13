@@ -141,6 +141,7 @@
 		var/obj/item/holosynth_pen/pen_to_unlink = chest.owner_projector_ref?.resolve()
 		if(pen_to_unlink)
 			pen_to_unlink.linked_mob_ref = null
+			qdel(pen_to_unlink)
 		chest.owner_projector_ref = null
 
 /datum/species/synthetic/holosynth/get_species_lore()
