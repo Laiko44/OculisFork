@@ -1,4 +1,102 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/closed/wall/mineral/stone,
+/area/lavaland/surface/outdoors)
+"ab" = (
+/turf/closed/wall/mineral/stone,
+/area/template_noop)
+"ac" = (
+/obj/structure/table/survival_pod,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/lavaland/surface/outdoors)
+"ad" = (
+/obj/item/storage/backpack/duffelbag,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/lavaland/surface/outdoors)
+"ae" = (
+/obj/item/clothing/head/utility/welding,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/lavaland/surface/outdoors)
+"af" = (
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/lavaland/surface/outdoors)
+"ag" = (
+/obj/item/storage/backpack/satchel/leather,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/lavaland/surface/outdoors)
+"ah" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/plastic/five,
+/obj/item/stack/sheet/plastic/five,
+/obj/item/stack/sheet/plastic/five,
+/obj/item/stack/sheet/cloth/ten,
+/obj/item/stack/sheet/cloth/ten,
+/obj/item/clothing/gloves/color/yellow/heavy,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"ai" = (
+/obj/machinery/rnd/production/colony_lathe,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
+"aj" = (
+/obj/item/toy/plush/lizard_plushie/space/green{
+	name = "Stranded-On-Lavaland";
+	desc = "An adorable stuffed toy that resembles a very determined spacefaring green lizardperson. To infinity and beyond, little guy. This one fills you with nostalgia and soul. Its lost and alone, just like you!"
+	},
+/obj/item/circuitboard/machine/autolathe{
+	pixel_y = -10;
+	pixel_x = 7
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"ak" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
+"al" = (
+/obj/item/gun/energy/recharge/kinetic_accelerator,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
+"am" = (
+/obj/structure/tubes,
+/obj/effect/mob_spawn/ghost_role/human/hermit,
+/obj/item/tank/internals/oxygen,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
+"an" = (
+/obj/structure/fans,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
+"ao" = (
+/obj/machinery/smartfridge/survival_pod/preloaded,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/pod_dark{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/powered)
 "aC" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/coal,
@@ -8,10 +106,6 @@
 /obj/item/pickaxe/emergency,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"dh" = (
-/obj/item/gun/energy/laser/musket/prime,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
 "eb" = (
 /obj/item/instrument/guitar,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
@@ -53,10 +147,6 @@
 /obj/item/knife/combat/survival,
 /turf/open/floor/stone/lavaland,
 /area/lavaland/surface/outdoors)
-"mV" = (
-/obj/item/storage/backpack/duffelbag,
-/turf/open/floor/pod/dark/lavaland,
-/area/lavaland/surface/outdoors)
 "qx" = (
 /obj/structure/railing{
 	dir = 8
@@ -73,25 +163,9 @@
 	},
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"wg" = (
-/obj/item/storage/backpack/satchel/leather,
-/turf/open/floor/pod/dark/lavaland,
-/area/lavaland/surface/outdoors)
 "xN" = (
 /turf/closed/wall/mineral/titanium/interior,
 /area/ruin/powered)
-"xW" = (
-/obj/structure/table/survival_pod,
-/obj/item/storage/toolbox/emergency,
-/turf/open/floor/pod/dark/lavaland,
-/area/lavaland/surface/outdoors)
-"yy" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
-"AT" = (
-/turf/open/floor/pod/dark/lavaland,
-/area/lavaland/surface/outdoors)
 "Df" = (
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
@@ -103,11 +177,6 @@
 /obj/structure/reagent_forge,
 /turf/open/floor/stone/lavaland,
 /area/lavaland/surface/outdoors)
-"GQ" = (
-/obj/machinery/rnd/production/colony_lathe,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
 "HU" = (
 /turf/closed/wall/mineral/plastitanium/survival/pod,
 /area/lavaland/surface/outdoors)
@@ -115,10 +184,6 @@
 /obj/item/cultivator,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"Jh" = (
-/obj/structure/fans,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
 "Lm" = (
 /turf/closed/mineral/volcanic/lava_land_surface,
 /area/lavaland/surface/outdoors)
@@ -154,12 +219,6 @@
 /obj/item/seeds/tower,
 /turf/open/misc/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
-"On" = (
-/obj/structure/tubes,
-/obj/effect/mob_spawn/ghost_role/human/hermit,
-/obj/item/tank/internals/oxygen,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
 "OR" = (
 /obj/machinery/door/airlock/survival_pod/glass,
 /obj/structure/fans/tiny,
@@ -187,13 +246,6 @@
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
 /area/ruin/powered)
-"QB" = (
-/obj/item/toy/plush/lizard_plushie/space/green{
-	name = "Stranded-On-Lavaland";
-	desc = "An adorable stuffed toy that resembles a very determined spacefaring green lizardperson. To infinity and beyond, little guy. This one fills you with nostalgia and soul. Its lost and alone, just like you!"
-	},
-/turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
 "QZ" = (
 /obj/structure/rack,
 /obj/item/storage/bag/plants/portaseeder,
@@ -210,11 +262,6 @@
 	},
 /turf/closed/wall/mineral/titanium/interior,
 /area/ruin/powered)
-"ST" = (
-/obj/machinery/smartfridge/survival_pod/preloaded,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/pod/dark,
-/area/ruin/powered)
 "Vx" = (
 /turf/template_noop,
 /area/template_noop)
@@ -226,11 +273,6 @@
 /area/lavaland/surface/outdoors)
 "VT" = (
 /turf/open/misc/asteroid/basalt/lava_land_surface,
-/area/lavaland/surface/outdoors)
-"XN" = (
-/obj/item/clothing/head/utility/welding,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/pod/dark/lavaland,
 /area/lavaland/surface/outdoors)
 "Yf" = (
 /obj/structure/railing,
@@ -260,13 +302,13 @@ Lm
 Lm
 Lm
 Lm
+aa
 Lm
-Lm
-Lm
+aa
+ab
 Vx
-Vx
-Vx
-Vx
+ab
+ab
 Vx
 Vx
 Vx
@@ -279,13 +321,13 @@ RN
 eO
 RN
 Lm
-Lm
+aa
 Lm
 Lm
 HU
 Lm
 Lm
-Vx
+ab
 Vx
 Vx
 Vx
@@ -294,14 +336,14 @@ Vx
 (4,1,1) = {"
 MP
 MP
-yy
+ak
 MP
 MP
 Lm
 HU
-wg
-XN
-xW
+ag
+ae
+ac
 Lm
 Lm
 Vx
@@ -311,15 +353,15 @@ Vx
 "}
 (5,1,1) = {"
 kC
-On
-dh
-GQ
+am
+al
+ai
 xN
 VT
 VT
 VT
-AT
-mV
+af
+ad
 HU
 VT
 VT
@@ -329,7 +371,7 @@ Vx
 "}
 (6,1,1) = {"
 xN
-Jh
+an
 kX
 kX
 PZ
@@ -347,7 +389,7 @@ Vx
 "}
 (7,1,1) = {"
 MP
-ST
+ao
 kX
 kX
 OR
@@ -401,11 +443,11 @@ Lm
 "}
 (10,1,1) = {"
 Lm
+aa
 Lm
 Lm
 Lm
-Lm
-VT
+ah
 VT
 VT
 VT
@@ -420,8 +462,8 @@ Lm
 (11,1,1) = {"
 Vx
 Vx
-Lm
-QB
+aa
+aj
 Lm
 Lm
 mE
@@ -433,13 +475,13 @@ VT
 VT
 VT
 Ok
-Lm
+aa
 "}
 (12,1,1) = {"
 Vx
 Vx
 Lm
-Lm
+aa
 Lm
 FU
 Rw
@@ -451,13 +493,13 @@ VT
 PN
 VT
 Lm
-Lm
+aa
 "}
 (13,1,1) = {"
 Vx
 Vx
 Vx
-Lm
+aa
 Lm
 aC
 tt
@@ -476,7 +518,7 @@ Vx
 Vx
 Vx
 Vx
-Lm
+aa
 Lm
 HU
 PY
@@ -486,7 +528,7 @@ Lm
 QZ
 VT
 Lm
-Lm
+aa
 Vx
 "}
 (15,1,1) = {"
@@ -495,15 +537,15 @@ Vx
 Vx
 Vx
 Vx
-Vx
+ab
+Lm
+aa
 Lm
 Lm
+aa
 Lm
 Lm
-Lm
-Lm
-Lm
-Lm
+aa
 Vx
 Vx
 "}
@@ -516,10 +558,10 @@ Vx
 Vx
 Vx
 Vx
+ab
+ab
 Vx
-Vx
-Vx
-Vx
+ab
 Vx
 Vx
 Vx
